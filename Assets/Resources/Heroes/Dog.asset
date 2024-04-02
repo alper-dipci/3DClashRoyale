@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5c23fd834c21743bf7677711b06d5e, type: 3}
+  m_Name: Dog
+  m_EditorClassIdentifier: 
+  cardType: 0
+  isFlying: 0
+  _stats:
+    Health: 100
+    AttackPower: 10
+    AttackRange: 2
+    TimeBetweenAttacks: 2
+    targetDetectRange: 10
+    maxRangeToDetectTower: 100
+    moveSpeed: 2
+  Prefab: {fileID: -3947803978862483635, guid: 4a218fd1c8d2ac44d81b23097102f05d, type: 3}
+  Description: 
+  MenuSprite: {fileID: 0}
+  HeroType: 1
+  HeroSprite: {fileID: 21300000, guid: e5b440819b8f18e47b5d380dca20b5cd, type: 3}
+  GhostPrefab: {fileID: 596330655327640620, guid: 149df48fe751c724087ddba6318b0ccb,
+    type: 3}
+  ElixirCost: 3
